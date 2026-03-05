@@ -11,8 +11,8 @@ export const resumeConfig: ResumeConfig = {
       fr: "Développeur Full Stack",
     },
     subtitle: {
-      fr: "Développeur fullstack junior (1 an d'expérience) travaillant principalement avec React, Node.js et TypeScript. Sérieux, impliqué et en constante progression.\n\nDisponible à partir du 09 Mars 2026",
-      en: "Junior fullstack developer (1 year of experience) working mainly with React, Node.js and TypeScript. Serious, committed and constantly improving.\n\nAvailable from March 9, 2026",
+      fr: "Développeur fullstack junior (1 an d'expérience) travaillant principalement avec React, Node.js et TypeScript. Sérieux, impliqué et en constante progression.\n\n",
+      en: "Junior fullstack developer (1 year of experience) working mainly with React, Node.js and TypeScript. Serious, committed and constantly improving.",
     },
     location: "Paris, France",
   },
@@ -46,13 +46,13 @@ export const resumeConfig: ResumeConfig = {
       href: "mailto:ryanechikhi2004@gmail.com",
     },
     {
-      type: "location",
-      label: "Paris, 75015, France",
-    },
-    {
       type: "github",
       label: "github.com/ryan_chikhi",
       href: "https://github.com/Zeikrom251",
+    },
+    {
+      type: "location",
+      label: "Paris, France",
     },
   ],
 
@@ -159,52 +159,6 @@ export const resumeConfig: ResumeConfig = {
       },
     },
     {
-      id: "simracers-x",
-      company: { en: "Les Simracers X", fr: "Les Simracers X" },
-      role: { en: "Fullstack Developer", fr: "Développeur Full Stack" },
-      type: { en: "Freelance / Volunteer", fr: "Freelance / Bénévolat" },
-      period: { en: "Since Dec 28, 2024", fr: "Depuis le 28 Décembre 2024" },
-      description: {
-        en: "Development of a community race event management platform and Discord bot to automate announcements and member interactions.",
-        fr: "Développement d'une plateforme communautaire de gestion d'événements de course et d'un bot Discord pour automatiser les interactions.",
-      },
-      techs: [
-        "React",
-        "JavaScript",
-        "Node.js",
-        "Discord.js",
-        "MySQL",
-        "Git",
-        "GitHub",
-        "GitHub Actions",
-        "Vercel",
-      ],
-      details: {
-        context: {
-          en: "Side project for a simracing community: building a full race event management platform (registrations, tracks, servers, users) and a Discord bot.",
-          fr: "Projet personnel pour une communauté de simracing : développement d'une plateforme complète de gestion des événements de course et d'un bot Discord.",
-        },
-        tasks: {
-          en: [
-            "Developed a web platform for managing race events (registrations, tracks, servers, users, etc.)",
-            "Created a Discord bot to automate announcements and member interactions",
-            "Collaborated with organizers to define needs and improve internal management",
-            "Hosting, maintenance and integration of community tools",
-          ],
-          fr: [
-            "Développement d'un site web de gestion des événements de courses (inscriptions, circuits, serveurs, utilisateurs, etc.)",
-            "Création d'un bot Discord pour automatiser les annonces et interactions avec les membres",
-            "Collaboration avec les organisateurs pour définir les besoins et améliorer la gestion interne",
-            "Hébergement, maintenance et intégration des outils communautaires",
-          ],
-        },
-        env: {
-          en: "React / TypeScript / Node.js / Discord.js / MySQL / Git / GitHub / GitHub Actions / Vercel",
-          fr: "React / TypeScript / Node.js / Discord.js / MySQL / Git / GitHub / GitHub Actions / Vercel",
-        },
-      },
-    },
-    {
       id: "diligence",
       company: { en: "Diligence", fr: "Diligence" },
       role: { en: "Web Developer", fr: "Développeur Web" },
@@ -267,6 +221,33 @@ export const resumeConfig: ResumeConfig = {
           fr: "Strasbourg / Annecy",
         },
       },
+    },
+  ],
+
+  /* ==== PROJECTS ==== */
+  projects: [
+    {
+      id: "simracers-x",
+      title: {
+        en: "Les Simracers X – Race Management Platform",
+        fr: "Les Simracers X – Plateforme de gestion de courses",
+      },
+      description: {
+        en: "Full race event management platform (registrations, tracks, servers, users) and a Discord bot to automate announcements and member interactions for a simracing community.",
+        fr: "Plateforme complète de gestion des événements de course (inscriptions, circuits, serveurs, utilisateurs) et bot Discord pour automatiser les annonces et interactions au sein d'une communauté de simracing.",
+      },
+      techs: [
+        "React",
+        "JavaScript",
+        "Node.js",
+        "Discord.js",
+        "MySQL",
+        "Git",
+        "GitHub",
+        "GitHub Actions",
+        "Vercel",
+      ],
+      github: "https://github.com/Zeikrom251",
     },
   ],
 
