@@ -351,6 +351,8 @@ export const resumeConfig: ResumeConfig = {
 
   pdf: {
     label: { en: "Download PDF", fr: "Télécharger le PDF" },
-    path: "/cv/fr/resume_chikhi.pdf",
+    path: { fr: "/cv/fr/resume_CHIKHI.pdf", en: "/cv/en/resume_CHIKHI.pdf" },
+    interactiveUrl: "https://zeikrom251.github.io/interactive-resume/",
+    interactiveLabel: { en: "Interactive Resume", fr: "CV Interactif" },
   },
 };
