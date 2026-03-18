@@ -4,7 +4,7 @@ export const resumeConfig: ResumeConfig = {
   /* ==== PERSONAL INFO ==== */
   personal: {
     name: "Ryan Ramdane Chikhi",
-    photo: "/images/P1199690.jpg",
+    photo: "/images/profil.jpg",
     photoBackEmoji: "👨‍💻",
     title: {
       en: "Fullstack Developer",
@@ -75,6 +75,7 @@ export const resumeConfig: ResumeConfig = {
         { name: "NestJS" },
         { name: "Discord.js" },
         { name: "GraphQL" },
+        { name: "Prisma" },
       ],
     },
     {

@@ -139,6 +139,7 @@ const TECH_REGISTRY = {
   'GraphQL': { color: '#E10098' },
   'REST': { color: '#009688' },
   'Prisma': { color: '#2D3748' },
+  'TypeORM': { color: '#e66700' },
   'tRPC': { color: '#2596BE' },
   'Vite': { color: '#646CFF' },
   'Webpack': { color: '#8DD6F9' },
