@@ -263,7 +263,7 @@ export const resumeConfig: ResumeConfig = {
         en: "Full Stack Developer Training [FSD]",
         fr: "Formation Full Stack Developer [FSD]",
       },
-      period: "Janvier 2025 – Janvier 2026 [En cours...]",
+      period: "Janvier 2025 – Janvier 2026 [Obtenu]",
     },
     {
       school: {
