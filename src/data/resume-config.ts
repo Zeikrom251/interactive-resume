@@ -228,27 +228,29 @@ export const resumeConfig: ResumeConfig = {
   /* ==== PROJECTS ==== */
   projects: [
     {
-      id: "simracers-x",
-      title: {
-        en: "Les Simracers X – Race Management Platform",
-        fr: "Les Simracers X – Plateforme de gestion de courses",
-      },
+      id: "undercut-project",
+      title: { en: "Undercut - F1 Pronostics", fr: "Undercut - Pronostics F1" },
       description: {
-        en: "Full race event management platform (registrations, tracks, servers, users) and a Discord bot to automate announcements and member interactions for a simracing community.",
-        fr: "Plateforme complète de gestion des événements de course (inscriptions, circuits, serveurs, utilisateurs) et bot Discord pour automatiser les annonces et interactions au sein d'une communauté de simracing.",
+        en: "Full-stack web application allowing Formula 1 fans to submit race predictions, score points automatically, and compete on a leaderboard with friends across a full season. Designed and built from scratch as a monorepo (Turborepo), with a NestJS REST API, Prisma ORM, and a React frontend. Includes authentication, a friend system, seasonal rankings, and integration with the F1 calendar API. Inspired by a Discord bot previously used by a community of 30,000+ users.",
+        fr: "Application web full-stack permettant aux fans de Formule 1 de soumettre des pronostics avant chaque course, de marquer des points automatiquement et de se mesurer à leurs amis sur un classement saisonnier. Conçue et développée from scratch en monorepo (Turborepo), avec une API REST NestJS, Prisma comme ORM et un frontend React. Intègre un système d'authentification, un système d'amis, des classements saisonniers et une connexion à l'API du calendrier F1. Inspiré d'un bot Discord utilisé par une communauté de plus de 30 000 utilisateurs.",
       },
       techs: [
+        "TypeScript",
         "React",
-        "JavaScript",
-        "Node.js",
-        "Discord.js",
+        "SCSS",
+        "Tailwind",
+        "NestJS",
+        "BetterAuth",
+        "Prisma",
         "MySQL",
         "Git",
         "GitHub",
         "GitHub Actions",
         "Vercel",
+        "Render",
       ],
       github: "https://github.com/Zeikrom251",
+      url: "https://www.undercut.click",
     },
   ],
 
