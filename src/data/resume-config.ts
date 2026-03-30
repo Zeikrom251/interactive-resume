@@ -37,10 +37,6 @@ export const resumeConfig: ResumeConfig = {
   /* ==== CONTACT ==== */
   contact: [
     {
-      type: "phone",
-      label: "+33 7 66 19 87 51",
-    },
-    {
       type: "email",
       label: "ryanechikhi2004@gmail.com",
       href: "mailto:ryanechikhi2004@gmail.com",
