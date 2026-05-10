@@ -245,7 +245,7 @@ export const resumeConfig: ResumeConfig = {
         "Vercel",
         "Render",
       ],
-      github: "https://github.com/Zeikrom251",
+      github: "https://github.com/Zeikrom251/undercut.click",
       url: "https://www.undercut.click",
     },
   ],
