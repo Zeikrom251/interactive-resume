@@ -58,9 +58,13 @@ export const resumeConfig: ResumeConfig = {
       title: { en: "Frontend", fr: "Frontend" },
       type: "badges",
       items: [
+        { name: "HTML" },
+        { name: "CSS" },
+        { name: "SCSS" },
+        { name: "Tailwind CSS" },
+        { name: "React" },
         { name: "JavaScript" },
         { name: "TypeScript" },
-        { name: "React" },
       ],
     },
     {
@@ -88,6 +92,16 @@ export const resumeConfig: ResumeConfig = {
         { name: "GitLab" },
         { name: "GitHub Actions" },
         { name: "GitLab CI" },
+      ],
+    },
+    {
+      title: { en: "AI Tools", fr: "Outils IA" },
+      type: "badges",
+      items: [
+        { name: "GitHub Copilot" },
+        { name: "Mistral" },
+        { name: "Claude Code" },
+        { name: "T3.Chat" },
       ],
     },
     {
